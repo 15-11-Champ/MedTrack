@@ -46,7 +46,7 @@ export default function AddMedicine() {
 
     const shortYear = String(year).slice(-2); // 2024 -> 24
     const expiry = `EXP.${month}.${shortYear}`;
-
+    //checking
     const newMed = {
       id: Date.now(),
       name: name.trim(),
