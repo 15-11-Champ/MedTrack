@@ -1,0 +1,16 @@
+{
+  "medicines": [
+    {
+      "name": "Paracetamol",
+      "interactions": ["Ibuprofen"]
+    },
+    {
+      "name": "Ibuprofen",
+      "interactions": ["Paracetamol"]
+    },
+    {
+      "name": "Cetirizine",
+      "interactions": []
+    }
+  ]
+}
